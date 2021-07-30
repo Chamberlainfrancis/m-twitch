@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /tmpnodejsnpm-cache
+/public/images
 
 # misc
 .DS_Store
