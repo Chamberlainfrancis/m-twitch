@@ -1,10 +1,8 @@
-// import react from 'react';
 import Link from "next/link";
 import Image from "next/image";
 
 const name = "twitch logo";
 const logo = "/images/logo.jpg";
-
 
 export default function Menubar() {
     return (

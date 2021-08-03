@@ -1,7 +1,4 @@
-import Link from "next/link";
-import React, { useRef, useState } from "react";
 import Image from "next/image";
-
 
 export default function Channels(props) {
 
@@ -38,7 +35,5 @@ export default function Channels(props) {
                 </div>
             </div>
         </>
-        
-        
     );
 }

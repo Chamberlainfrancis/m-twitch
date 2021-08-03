@@ -1,7 +1,5 @@
-import * as React from 'react';
 import Channels from '../src/channels';
 import Menubar from '../src/menu/Menubar';
-
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -28,12 +26,12 @@ export default function Index() {
       return (
         <SwiperSlide key={param}>
           <Channels coverImg={image} 
-          avatar="/images/me.jpg" 
-          title="How to Play COD" 
-          name="Chamberlain" 
-          category="Call of Duty" 
-          language="English"
-        />
+            avatar="/images/me.jpg" 
+            title="How to Play COD" 
+            name="Chamberlain" 
+            category="Call of Duty" 
+            language="English"
+          />
         </SwiperSlide>
       );
   })
@@ -48,23 +46,7 @@ export default function Index() {
           
             {channelItems}
         </Swiper>
-        
-
-        
-
-        <div>
-
-          {/* {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-            { index % 2 === 0 ? text : text}
-          ))} */}
-
-        </div>
-
-        
-
       </div>
-
-      
     </>
   );
 }
