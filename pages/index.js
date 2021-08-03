@@ -18,10 +18,6 @@ import SwiperCore, {
 // install Swiper modules
 SwiperCore.use([Pagination]);
 
-const AllChannels = (
-  <></>
-);
-
 export default function Index() {
 
   const users = [1,2,3,4,5];
@@ -30,7 +26,7 @@ export default function Index() {
     const image = (param % 2 === 0) ? '/images/live-user-1.jpg': (param % 3 === 0) ? '/images/live-user-2.jpg' : '/images/live-user-3.jpg';
 
       return (
-        <SwiperSlide>
+        <SwiperSlide key={param}>
           <Channels coverImg={image} 
           avatar="/images/me.jpg" 
           title="How to Play COD" 
