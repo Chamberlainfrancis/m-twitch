@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/tmpnodejsnpm-cache
 
 # misc
 .DS_Store

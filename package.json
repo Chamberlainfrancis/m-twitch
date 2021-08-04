@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/cache": "latest",
     "@emotion/react": "latest",
+    "@popperjs/core": "^2.9.3",
     "bootstrap": "next",
     "bootstrap-icons": "^1.5.0",
     "clsx": "latest",
@@ -17,7 +18,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.0.17"
   }
 }

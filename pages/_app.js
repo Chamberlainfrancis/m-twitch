@@ -13,6 +13,8 @@ import "../styles/global.css";
 export default function MyApp(props) {
   const { Component, pageProps } = props;
 
+  // @types/bootstrap"
+
   React.useEffect(() => {
     typeof document !== undefined ? require('bootstrap/dist/js/bootstrap') : null;
   }, []);
