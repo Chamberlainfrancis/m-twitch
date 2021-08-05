@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Channels(props) {
 
     return (
-        <div className="card">
+        <div className="card shadow-sm">
             <div className="card-img-top">
                 <Image
                     priority
@@ -15,7 +15,7 @@ export default function Channels(props) {
                 />
             </div>
             <div className="card-body">
-                <div className="d-flex justify-content-start align-items-start">
+                <div className="d-flex align-items-start">
                     <Image
                         priority
                         src={props.avatar}
@@ -24,10 +24,15 @@ export default function Channels(props) {
                         width={48}
                         alt="user"
                     />
-                    <div className="ms-2 col-9">
-                        <h6>{props.title}</h6>
-                        <p className="text-small">{props.name} <br /> <span>{props.category}</span> </p>
-                        <span className="badge bg-secondary">{props.language}</span>
+                    <div className="card-body p-0">
+                        <div className="ms-2 col-10">
+                            <h6 className="fs-6 fw-bold my-0">
+                                {props.title}
+                            </h6>
+                            <p className="fs-6 my-0">{props.name}</p>
+                            <p className="text-small">{props.category}</p>
+                            <span className="badge bg-light text-dark text-small fw-normal">{props.language}</span>
+                        </div>
                     </div>
                 </div>
 
