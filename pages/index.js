@@ -68,7 +68,7 @@ export default function Index() {
     <>
       <Menubar />
       <div className="container-fluid mt-5 py-3">
-        <h1 className="mb-3 display-3 fw-bold">Welcome to Twitch!</h1>
+        <h1 className="mb-3 display-3 mt-2 fw-bold">Welcome to Twitch!</h1>
         <div className="mb-2">
           <h6 className="text-muted text-uppercase">
             Live channels we think you'll like

@@ -7,7 +7,7 @@ const logo = "/images/logo.jpg";
 export default function Menubar() {
     return (
         <>
-        <nav className="navbar fixed-top navbar-expand navbar-light bg-light shadow-sm">
+        <nav className="navbar fixed-top navbar-expand navbar-light bg-white shadow">
             <div className="container-fluid ">
                 <div>
                     <Link href="#">
