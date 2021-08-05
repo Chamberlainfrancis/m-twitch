@@ -47,7 +47,7 @@ export default function Index() {
       categoryImage = '/images/cod.jpg';
     }else if(param % 3 === 0) {
       categoryTitle = 'Apex';
-      categoryImage = '/images/apex.jpg';
+      categoryImage = '/images/Apex.jpg';
     }else{
       categoryTitle = 'Fortnite';
       categoryImage = '/images/Fortnite.jpg';
@@ -67,7 +67,7 @@ export default function Index() {
   return (
     <>
       <Menubar />
-      <div className="container-fluid py-3">
+      <div className="container-fluid mt-5 py-3">
         <h1 className="mb-3 display-3 fw-bold">Welcome to Twitch!</h1>
         <div className="mb-2">
           <h6 className="text-muted text-uppercase">
