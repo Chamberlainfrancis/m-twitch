@@ -10,7 +10,7 @@ export default function Menubar() {
         <nav className="navbar fixed-top navbar-expand navbar-light bg-white shadow">
             <div className="container-fluid ">
                 <div>
-                    <Link href="#">
+                    <Link href="/">
                         <a className="navbar-brand me-0">
                             <span className="d-inline-block align-text-top">
                                 <Image
@@ -24,27 +24,27 @@ export default function Menubar() {
                         </a>
                     </Link>
 
-                    <Link href="#">
-                        <button type="button" className="btn btn-link text-dark ms-2">
-                            <i className="bi bi-collection"></i>
+                    <Link href="/explore">
+                        <button type="button" className="btn btn-link text-dark ms-2 pb-0">
+                            <i className="material-icons">content_copy</i>
                         </button>
                     </Link>
                 </div>
 
-                <div className="d-flex">
-                    <button type="button" className="btn bg-twitch text-white btn-sm me-1">
+                <div className="d-flex align-items-center">
+                    <button type="button" className="btn bg-twitch text-white btn-sm me-1 pt-0">
                         Open in App
                     </button>
-                    <Link href="#">
-                        <button type="button" className="btn btn-link text-dark">
-                            <i className="bi bi-search"></i>
+                    <Link href="/search">
+                        <button type="button" className="btn btn-link text-dark pb-0">
+                            <i className="material-icons">search</i>
                         </button>
                     </Link>
 
                     <div className="dropdown">
-                        <button type="button" className="btn btn-link text-dark " 
+                        <button type="button" className="btn btn-link text-dark pb-0" 
                         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i className="bi bi-three-dots"></i>
+                            <i className="material-icons">more_horiz</i>
                         </button>
 
                         <ul className="dropdown-menu dropdown-menu-end mt-2" aria-labelledby="dropdownMenuButton1">

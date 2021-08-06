@@ -25,6 +25,7 @@ export default function MyApp(props) {
         <title>Twitch App</title>
         <meta name="theme-color" content={theme.palette.primary.main} />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       </Head>
       <Component {...pageProps} />
     </React.Fragment>
