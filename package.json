@@ -10,6 +10,7 @@
     "bootstrap-icons": "^1.5.0",
     "clsx": "latest",
     "next": "latest",
+    "nextjs-progressbar": "0.0.11",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
