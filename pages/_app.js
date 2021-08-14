@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 // add bootstrap css 
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import NextNprogress from 'nextjs-progressbar';
@@ -10,12 +10,11 @@ import NextNprogress from 'nextjs-progressbar';
 import theme from '../src/theme';
 
 // own css files here
-import "../styles/global.css"; 
+// import '../styles/theme.css'; 
+import '../sass/theme.scss';
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
-
-  // @types/bootstrap"
 
   React.useEffect(() => {
     typeof document !== undefined ? require('bootstrap/dist/js/bootstrap') : null;

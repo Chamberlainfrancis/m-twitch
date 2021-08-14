@@ -73,7 +73,7 @@ export default function Index() {
           <h6 className="text-muted text-uppercase">
             Live channels we think you'll like
           </h6>
-          <Swiper slidesPerView={1.5} spaceBetween={15} className="mySwiper">
+          <Swiper slidesPerView={1.5} spaceBetween={5} className="mySwiper">
               {channelItems}
           </Swiper>
         </div>

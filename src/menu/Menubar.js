@@ -32,7 +32,7 @@ export default function Menubar() {
                 </div>
 
                 <div className="d-flex align-items-center">
-                    <button type="button" className="btn bg-twitch text-white btn-sm me-1 pt-0">
+                    <button type="button" className="btn btn-primary text-white btn-sm me-1 pt-0">
                         Open in App
                     </button>
                     <Link href="/search">
